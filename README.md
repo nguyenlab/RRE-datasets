@@ -40,7 +40,49 @@ Example:
 する	する	。	E-E
 ```
 
+## japan-civil-code dataset
+- Tagging scheme: BIOE (Begin, Inside, End, and not-included)
+- Text encoding: `utf-8`
+- File format: `tsv`
+- Columns: Word [TAB] Label_1,...,Label_N
 
+
+```tsv
+
+### Doc 100
+Any	B-E,B-R
+manifestation	I-E,I-R
+of	I-E,I-R
+intention	I-E,I-R
+made	I-E,I-R
+by	I-R
+an	I-R
+agent	I-R
+with	I-R
+no	I-R
+indication	I-R
+that	I-R
+it	I-R
+is	I-R
+made	I-R
+on	I-R
+behalf	I-R
+of	I-R
+the	I-R
+principal	E-R
+is	I-E
+deemed	I-E
+to	I-E
+have	I-E
+been	I-E
+made	I-E
+for	I-E
+the	I-E
+agent	I-E
+'s	I-E
+own	I-E
+behalf	E-E
+```
 
 # Experimental Results
 
